@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "title": "MossC - شركة ذكاء اصطناعي افتراضية",
+    "description": "واجهة سهلة الاستخدام لـ OpenClaw تتيح لغير المطورين توجيه فريق ذكاء اصطناعي كما لو كانوا يتحدثون في دردشة."
+  },
+  "common": {
+    "cancel": "إلغاء",
+    "create": "إنشاء",
+    "creating": "جارٍ الإنشاء",
+    "save": "حفظ",
+    "saving": "جارٍ الحفظ",
+    "confirm": "تأكيد",
+    "delete": "حذف",
+    "deleting": "جارٍ الحذف",
+    "justNow": "الآن",
+    "me": "أنا",
+    "meHuman": "أنا (بشري)",
+    "memberCount": "{{count}} أعضاء",
+    "selectedCount": "{{count}} محدد",
+    "searchPlaceholder": "بحث..."
+  },
+  "nav": {
+    "chat": "الرسائل",
+    "virtualTeam": "الفريق الافتراضي",
+    "cron": "المهام المجدولة",
+    "settings": "الإعدادات"
+  },
+  "topNav": {
+    "connection": {
+      "connected": "متصل بـ OpenClaw",
+      "connecting": "جارٍ الاتصال...",
+      "disconnected": "غير متصل",
+      "error": "خطأ في الاتصال"
+    },
+    "selectEngine": "اختر المحرك",
+    "comingSoon": "قريبًا"
+  },
+  "settings": {
+    "backToApp": "العودة إلى MossC",
+    "sections": {
+      "models": "إعدادات النماذج",
+      "language": "اللغة",
+      "community": "المجتمع"
+    },
+    "descriptions": {
+      "models": "أضف مزوّدي الذكاء الاصطناعي واضبط النماذج المتاحة",
+      "language": "يتبع لغة المتصفح افتراضيًا مع إمكانية التبديل اليدوي",
+      "community": "انضم إلى مجموعة WeChat الرسمية للحصول على التحديثات والدعم"
+    },
+    "community": {
+      "title": "المجتمع الرسمي",
+      "description": "امسح رمز QR أدناه للانضمام إلى مجموعة MossC الرسمية على WeChat",
+      "qrTip": "امسح باستخدام WeChat للانضمام"
+    },
+    "language": {
+      "current": "لغة الواجهة الحالية",
+      "system": "اتّباع لغة المتصفح",
+      "systemDescription": "في الزيارة الأولى سيتم استخدام اللغة المفضلة في المتصفح"
+    }
+  },
+  "conversationList": {
+    "title": "الرسائل",
+    "pin": "تثبيت",
+    "unpin": "إلغاء التثبيت",
+    "dissolveGroup": "حل المجموعة",
+    "addNewMember": "إضافة عضو جديد",
+    "createGroup": "إنشاء مجموعة",
+    "noMessages": "لا توجد رسائل بعد"
+  },
+  "newConversation": {
+    "title": "اختر زميلًا لبدء المحادثة",
+    "searchMembers": "ابحث عن أعضاء الفريق...",
+    "recommended": "مقترح",
+    "allMembers": "كل الأعضاء",
+    "skillsPrefix": "المهارات"
+  },
+  "createAgent": {
+    "gatewayUnavailable": "البوابة غير متاحة حاليًا. يرجى المحاولة لاحقًا.",
+    "createFailed": "فشل إنشاء Agent. حاول مرة أخرى.",
+    "networkError": "خطأ في الشبكة. تحقق من الاتصال ثم حاول مرة أخرى.",
+    "success": "تم إنشاء Agent \"{{name}}\" بنجاح",
+    "title": "إنشاء Agent جديد",
+    "description": "أضف مساعد ذكاء اصطناعي جديدًا إلى فريقك الافتراضي",
+    "nameLabel": "اسم Agent *",
+    "namePlaceholder": "أدخل اسم Agent",
+    "descriptionLabel": "الوصف (اختياري)",
+    "descriptionPlaceholder": "صف دور هذا Agent باختصار، مثل: تحليل اتجاهات السوق وبيانات المنافسين",
+    "descriptionHelper": "يساعد الوصف الواضح الفريق على فهم دور Agent بشكل أفضل"
+  },
+  "groupCreate": {
+    "createdMessage": "تم إنشاء المجموعة",
+    "title": "إنشاء مجموعة جديدة",
+    "nameLabel": "اسم المجموعة *",
+    "namePlaceholder": "فريق إطلاق المنتج",
+    "purposeLabel": "الهدف (اختياري)",
+    "purposePlaceholder": "تخطيط وتنسيق إطلاق المنتج في الربع الثاني، بما يشمل تحليل السوق، وكتابة المحتوى، ودعم البيانات، والجدولة",
+    "purposeHelper": "يساعد وصف الهدف الأعضاء على فهم سياق التعاون",
+    "strategyLabel": "نمط التعاون",
+    "maxResponders": "الحد الأقصى للمجيبين",
+    "coordinatorLabel": "اختر المنسق",
+    "coordinatorRequired": "يرجى اختيار منسق",
+    "selectMembers": "اختر الأعضاء",
+    "searchMembers": "ابحث عن أعضاء الفريق...",
+    "createWithCount": "إنشاء مجموعة ({{count}})"
+  },
+  "chatWindow": {
+    "today": "اليوم",
+    "yesterday": "أمس",
+    "emptyTitle": "اختر محادثة لبدء الدردشة",
+    "emptyDescription": "أو اضغط على \"محادثة جديدة\" للتحدث مع فريقك",
+    "fullDate": "{{day}}/{{month}}/{{year}}"
+  },
+  "typingIndicator": {
+    "thinking": "{{name}} يفكر..."
+  },
+  "messageBubble": {
+    "taskStatus": {
+      "completed": "مكتمل",
+      "inProgress": "قيد التنفيذ",
+      "failed": "فشل"
+    },
+    "progress": "التقدم",
+    "scope": "النطاق: {{scope}}",
+    "viewDetails": "عرض التفاصيل",
+    "downloadReport": "تنزيل التقرير",
+    "download": "تنزيل",
+    "preview": "معاينة"
+  },
+  "messageInput": {
+    "placeholders": {
+      "withAttachments": "أضف رسالة أو واصل لصق الصور...",
+      "default": "اكتب رسالة... Enter للإرسال، Shift+Enter لسطر جديد، ويدعم لصق الصور"
+    },
+    "toolbar": {
+      "format": "تنسيق",
+      "mention": "إشارة",
+      "shortcut": "اختصار",
+      "attachment": "مرفق",
+      "more": "المزيد",
+      "newSession": "جلسة جديدة",
+      "expand": "توسيع",
+      "send": "إرسال"
+    }
+  },
+  "header": {
+    "status": {
+      "online": "متصل",
+      "working": "يعمل",
+      "busy": "مشغول",
+      "thinking": "يفكر"
+    },
+    "tooltips": {
+      "voiceCall": "مكالمة صوتية",
+      "videoCall": "مكالمة فيديو",
+      "searchMessages": "البحث في الرسائل",
+      "membersList": "قائمة الأعضاء"
+    },
+    "menu": {
+      "viewProfile": "عرض الملف الشخصي",
+      "rename": "إعادة التسمية",
+      "changeAvatar": "تغيير الصورة الرمزية",
+      "pinConversation": "تثبيت المحادثة",
+      "muteNotifications": "كتم الإشعارات",
+      "clearHistory": "مسح السجل",
+      "dissolveGroup": "حل المجموعة",
+      "deleteAgent": "حذف Agent"
+    },
+    "dissolveGroupConfirm": "هل أنت متأكد من حل \"{{name}}\"؟ سيتم حذف سجل الرسائل بالكامل.",
+    "dissolveGroupSuccess": "تم حل المجموعة \"{{name}}\"",
+    "deleteAgentTitle": "حذف Agent",
+    "deleteAgentDescription": "هل أنت متأكد من حذف \"{{name}}\"؟ سيؤدي ذلك إلى إزالة Agent وبيانات مساحة العمل الخاصة به نهائيًا.",
+    "deleteFailed": "فشل حذف Agent. حاول مرة أخرى.",
+    "deleteSuccess": "تم حذف Agent \"{{name}}\"",
+    "networkError": "خطأ في الشبكة. تحقق من الاتصال ثم حاول مرة أخرى.",
+    "renameFailed": "فشلت إعادة التسمية",
+    "renameSuccess": "تمت إعادة التسمية إلى \"{{name}}\"",
+    "renameTitle": "إعادة تسمية Agent",
+    "newName": "الاسم الجديد",
+    "newNamePlaceholder": "أدخل اسمًا جديدًا",
+    "selectImageFile": "يرجى اختيار ملف صورة",
+    "imageSizeLimit": "يجب ألا يتجاوز حجم الصورة 2 ميجابايت",
+    "uploadFailed": "فشل الرفع",
+    "avatarUpdated": "تم تحديث الصورة الرمزية",
+    "changeAvatarTitle": "تغيير الصورة الرمزية",
+    "preview": "معاينة",
+    "chooseAvatar": "اختر صورة رمزية",
+    "refreshBatch": "تحديث",
+    "orUploadCustom": "أو ارفع صورة رمزية مخصصة",
+    "clickToUpload": "اضغط لرفع صورة",
+    "uploadSupport": "يدعم JPG وPNG وWebP حتى 2 ميجابايت"
+  },
+  "groupMembers": {
+    "title": "الأعضاء ({{count}})",
+    "collaborationMode": "الوضع:",
+    "maxResponders": "حتى {{count}} أعضاء يردون في كل جولة",
+    "admin": "المشرف",
+    "addMembers": "+ إضافة أعضاء"
+  },
+  "virtualOffice": {
+    "boardTitle": "Q3 Goals",
+    "coffeeMachine": "Coffee Machine",
+    "statusBar": "{{working}} working · {{idle}} idle",
+    "viewTeamPanel": "View Team Panel >>"
+  },
+  "cronView": {
+    "title": "Scheduled Jobs",
+    "refresh": "Refresh",
+    "status": "Status:",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "jobCount": "Jobs:",
+    "nextWake": "Next wake:",
+    "jobList": "Job List",
+    "showCount": "Showing {{shown}} / Total {{total}}",
+    "loading": "Loading...",
+    "empty": "No scheduled jobs",
+    "expired": "expired"
+  },
+  "modelConfig": {
+    "loadFailed": "Failed to load model config: ",
+    "saved": "Model config saved",
+    "saveFailed": "Save failed: ",
+    "unknownError": "Unknown error",
+    "loading": "Loading...",
+    "activeConfig": "Active Configuration",
+    "primaryModel": "Primary model:",
+    "notSelected": "-- Not selected --",
+    "noApiKey": " (No API Key)",
+    "current": "Current:",
+    "searchPlaceholder": "Search models (filter by ID or name)",
+    "noMatch": "No matching providers or models",
+    "noProviders": "No providers yet, please add one",
+    "saving": "Saving...",
+    "saveConfig": "Save Config",
+    "modelCount": "{{count}} models",
+    "available": "Available {{ms}}ms",
+    "unavailable": "Unavailable",
+    "apiType": "API Type",
+    "note": "Note",
+    "notePlaceholder": "e.g. Company account / Personal test",
+    "modelList": "Model List",
+    "modelIdPlaceholder": "Model ID",
+    "customModel": "Custom Model",
+    "deleteConfirm": "Are you sure you want to delete provider \"{{name}}\"? This action cannot be undone until you save.",
+    "editProvider": "Edit {{name}}",
+    "editProviderDesc": "Configure provider connection and manage model list",
+    "addModel": "Add Model",
+    "suggestedModels": "Suggested Models",
+    "done": "Done",
+    "reasoning": "Reasoning",
+    "providerId": "Provider ID",
+    "addProvider": "Add Provider",
+    "addProviderDesc": "Choose a known AI provider for quick setup, or create a custom one",
+    "searchProviderPlaceholder": "Search providers...",
+    "addCustomProvider": "Custom Provider",
+    "providerCategoryCn": "China",
+    "providerCategoryIntl": "International",
+    "providerCategoryAgg": "Aggregation",
+    "alreadyAdded": "Added"
+  },
+  "orchestration": {
+    "strategy": {
+      "skill-match": {
+        "label": "مطابقة ذكية",
+        "description": "يوجه كل سؤال تلقائيًا إلى الأعضاء الأكثر صلة"
+      },
+      "coordinator": {
+        "label": "المنسق",
+        "description": "يقوم منسق واحد بتحليل المهمة وتعيين أفضل المشاركين"
+      },
+      "round-robin": {
+        "label": "بالتناوب",
+        "description": "يرد الأعضاء بالتناوب على كل طلب"
+      },
+      "all": {
+        "label": "الجميع يرد",
+        "description": "يرد جميع الأعضاء على كل طلب"
+      }
+    }
+  },
+  "changelog": {
+    "title": "سجل التغييرات"
+  }
+}

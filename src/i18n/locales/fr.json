@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "title": "MossC - entreprise virtuelle IA",
+    "description": "Une interface conviviale pour OpenClaw permettant de piloter une équipe IA aussi naturellement qu’une conversation."
+  },
+  "common": {
+    "cancel": "Annuler",
+    "create": "Créer",
+    "creating": "Création",
+    "save": "Enregistrer",
+    "saving": "Enregistrement",
+    "confirm": "Confirmer",
+    "delete": "Supprimer",
+    "deleting": "Suppression",
+    "justNow": "À l'instant",
+    "me": "Moi",
+    "meHuman": "Moi (humain)",
+    "memberCount": "{{count}} membres",
+    "selectedCount": "{{count}} sélectionnés",
+    "searchPlaceholder": "Rechercher..."
+  },
+  "nav": {
+    "chat": "Messages",
+    "virtualTeam": "Équipe virtuelle",
+    "cron": "Tâches planifiées",
+    "settings": "Paramètres"
+  },
+  "topNav": {
+    "connection": {
+      "connected": "Connecté à OpenClaw",
+      "connecting": "Connexion...",
+      "disconnected": "Déconnecté",
+      "error": "Erreur de connexion"
+    },
+    "selectEngine": "Choisir le moteur",
+    "comingSoon": "Bientôt disponible"
+  },
+  "settings": {
+    "backToApp": "Retour à MossC",
+    "sections": {
+      "models": "Config modèles",
+      "language": "Langue",
+      "community": "Communauté"
+    },
+    "descriptions": {
+      "models": "Ajoutez des fournisseurs IA et configurez les modèles disponibles",
+      "language": "Suit la langue du navigateur par défaut, avec possibilité de changement manuel",
+      "community": "Rejoignez le groupe WeChat officiel pour les dernières nouvelles et le support"
+    },
+    "community": {
+      "title": "Communauté officielle",
+      "description": "Scannez le code QR ci-dessous pour rejoindre le groupe WeChat officiel MossC",
+      "qrTip": "Scannez avec WeChat pour rejoindre"
+    },
+    "language": {
+      "current": "Langue actuelle de l'interface",
+      "system": "Suivre le navigateur",
+      "systemDescription": "Lors de la première visite, la langue préférée du navigateur est utilisée"
+    }
+  },
+  "conversationList": {
+    "title": "Messages",
+    "pin": "Épingler",
+    "unpin": "Désépingler",
+    "dissolveGroup": "Dissoudre le groupe",
+    "addNewMember": "Ajouter un membre",
+    "createGroup": "Créer un groupe",
+    "noMessages": "Aucun message pour le moment"
+  },
+  "newConversation": {
+    "title": "Choisissez un coéquipier pour démarrer une discussion",
+    "searchMembers": "Rechercher des membres...",
+    "recommended": "Recommandés",
+    "allMembers": "Tous les membres",
+    "skillsPrefix": "Compétences"
+  },
+  "createAgent": {
+    "gatewayUnavailable": "Passerelle indisponible. Veuillez réessayer plus tard.",
+    "createFailed": "Impossible de créer le Agent. Veuillez réessayer.",
+    "networkError": "Erreur réseau. Vérifiez votre connexion puis réessayez.",
+    "success": "Agent \"{{name}}\" créé avec succès",
+    "title": "Créer un nouveau Agent",
+    "description": "Ajoutez un nouvel assistant IA à votre équipe virtuelle",
+    "nameLabel": "Nom du Agent *",
+    "namePlaceholder": "Saisissez le nom du Agent",
+    "descriptionLabel": "Description (facultatif)",
+    "descriptionPlaceholder": "Décrivez brièvement le rôle de ce Agent, par exemple : analyse les tendances du marché et les données concurrentielles",
+    "descriptionHelper": "Une description claire aide l’équipe à comprendre le rôle du Agent"
+  },
+  "groupCreate": {
+    "createdMessage": "Groupe créé",
+    "title": "Créer un nouveau groupe",
+    "nameLabel": "Nom du groupe *",
+    "namePlaceholder": "Équipe de lancement produit",
+    "purposeLabel": "Objectif (facultatif)",
+    "purposePlaceholder": "Planifier et coordonner le lancement produit du T2, y compris analyse de marché, rédaction, support data et planning",
+    "purposeHelper": "La description de l’objectif aide les membres à comprendre le contexte de collaboration",
+    "strategyLabel": "Mode de collaboration",
+    "maxResponders": "Nombre max. de répondants",
+    "coordinatorLabel": "Choisir un coordinateur",
+    "coordinatorRequired": "Veuillez choisir un coordinateur",
+    "selectMembers": "Choisir les membres",
+    "searchMembers": "Rechercher des membres...",
+    "createWithCount": "Créer le groupe ({{count}})"
+  },
+  "chatWindow": {
+    "today": "Aujourd'hui",
+    "yesterday": "Hier",
+    "emptyTitle": "Choisissez une conversation pour commencer",
+    "emptyDescription": "Ou cliquez sur « Nouvelle conversation » pour parler à votre équipe",
+    "fullDate": "{{day}}/{{month}}/{{year}}"
+  },
+  "typingIndicator": {
+    "thinking": "{{name}} réfléchit..."
+  },
+  "messageBubble": {
+    "taskStatus": {
+      "completed": "Terminé",
+      "inProgress": "En cours",
+      "failed": "Échec"
+    },
+    "progress": "Progression",
+    "scope": "Portée : {{scope}}",
+    "viewDetails": "Voir les détails",
+    "downloadReport": "Télécharger le rapport",
+    "download": "Télécharger",
+    "preview": "Aperçu"
+  },
+  "messageInput": {
+    "placeholders": {
+      "withAttachments": "Ajoutez un message ou continuez à coller des images...",
+      "default": "Saisissez un message... Entrée pour envoyer, Maj+Entrée pour une nouvelle ligne, collage d’images pris en charge"
+    },
+    "toolbar": {
+      "format": "Format",
+      "mention": "Mention",
+      "shortcut": "Raccourci",
+      "attachment": "Pièce jointe",
+      "more": "Plus",
+      "newSession": "Nouvelle session",
+      "expand": "Agrandir",
+      "send": "Envoyer"
+    }
+  },
+  "header": {
+    "status": {
+      "online": "En ligne",
+      "working": "En cours",
+      "busy": "Occupé",
+      "thinking": "Réfléchit"
+    },
+    "tooltips": {
+      "voiceCall": "Appel audio",
+      "videoCall": "Appel vidéo",
+      "searchMessages": "Rechercher dans les messages",
+      "membersList": "Liste des membres"
+    },
+    "menu": {
+      "viewProfile": "Voir le profil",
+      "rename": "Renommer",
+      "changeAvatar": "Changer l'avatar",
+      "pinConversation": "Épingler la conversation",
+      "muteNotifications": "Couper les notifications",
+      "clearHistory": "Effacer l'historique",
+      "dissolveGroup": "Dissoudre le groupe",
+      "deleteAgent": "Supprimer le Agent"
+    },
+    "dissolveGroupConfirm": "Voulez-vous vraiment dissoudre « {{name}} » ? Tout l’historique des messages sera supprimé.",
+    "dissolveGroupSuccess": "Le groupe « {{name}} » a été dissous",
+    "deleteAgentTitle": "Supprimer le Agent",
+    "deleteAgentDescription": "Voulez-vous vraiment supprimer « {{name}} » ? Le Agent et ses données d’espace de travail seront supprimés définitivement.",
+    "deleteFailed": "Échec de la suppression du Agent. Veuillez réessayer.",
+    "deleteSuccess": "Agent \"{{name}}\" supprimé",
+    "networkError": "Erreur réseau. Vérifiez votre connexion puis réessayez.",
+    "renameFailed": "Échec du renommage",
+    "renameSuccess": "Renommé en « {{name}} »",
+    "renameTitle": "Renommer le Agent",
+    "newName": "Nouveau nom",
+    "newNamePlaceholder": "Saisissez un nouveau nom",
+    "selectImageFile": "Veuillez choisir un fichier image",
+    "imageSizeLimit": "La taille de l’image doit être inférieure à 2 Mo",
+    "uploadFailed": "Échec du téléversement",
+    "avatarUpdated": "Avatar mis à jour",
+    "changeAvatarTitle": "Changer l'avatar",
+    "preview": "Aperçu",
+    "chooseAvatar": "Choisir un avatar",
+    "refreshBatch": "Rafraîchir",
+    "orUploadCustom": "Ou importer un avatar personnalisé",
+    "clickToUpload": "Cliquez pour importer une image",
+    "uploadSupport": "JPG, PNG, WebP pris en charge, 2 Mo max"
+  },
+  "groupMembers": {
+    "title": "Membres ({{count}})",
+    "collaborationMode": "Mode :",
+    "maxResponders": "Jusqu’à {{count}} membres répondent à chaque tour",
+    "admin": "Admin",
+    "addMembers": "+ Ajouter des membres"
+  },
+  "virtualOffice": {
+    "boardTitle": "Q3 Goals",
+    "coffeeMachine": "Coffee Machine",
+    "statusBar": "{{working}} working · {{idle}} idle",
+    "viewTeamPanel": "View Team Panel >>"
+  },
+  "cronView": {
+    "title": "Scheduled Jobs",
+    "refresh": "Refresh",
+    "status": "Status:",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "jobCount": "Jobs:",
+    "nextWake": "Next wake:",
+    "jobList": "Job List",
+    "showCount": "Showing {{shown}} / Total {{total}}",
+    "loading": "Loading...",
+    "empty": "No scheduled jobs",
+    "expired": "expired"
+  },
+  "modelConfig": {
+    "loadFailed": "Failed to load model config: ",
+    "saved": "Model config saved",
+    "saveFailed": "Save failed: ",
+    "unknownError": "Unknown error",
+    "loading": "Loading...",
+    "activeConfig": "Active Configuration",
+    "primaryModel": "Primary model:",
+    "notSelected": "-- Not selected --",
+    "noApiKey": " (No API Key)",
+    "current": "Current:",
+    "searchPlaceholder": "Search models (filter by ID or name)",
+    "noMatch": "No matching providers or models",
+    "noProviders": "No providers yet, please add one",
+    "saving": "Saving...",
+    "saveConfig": "Save Config",
+    "modelCount": "{{count}} models",
+    "available": "Available {{ms}}ms",
+    "unavailable": "Unavailable",
+    "apiType": "API Type",
+    "note": "Note",
+    "notePlaceholder": "e.g. Company account / Personal test",
+    "modelList": "Model List",
+    "modelIdPlaceholder": "Model ID",
+    "customModel": "Custom Model",
+    "deleteConfirm": "Are you sure you want to delete provider \"{{name}}\"? This action cannot be undone until you save.",
+    "editProvider": "Edit {{name}}",
+    "editProviderDesc": "Configure provider connection and manage model list",
+    "addModel": "Add Model",
+    "suggestedModels": "Suggested Models",
+    "done": "Done",
+    "reasoning": "Reasoning",
+    "providerId": "Provider ID",
+    "addProvider": "Add Provider",
+    "addProviderDesc": "Choose a known AI provider for quick setup, or create a custom one",
+    "searchProviderPlaceholder": "Search providers...",
+    "addCustomProvider": "Custom Provider",
+    "providerCategoryCn": "China",
+    "providerCategoryIntl": "International",
+    "providerCategoryAgg": "Aggregation",
+    "alreadyAdded": "Added"
+  },
+  "orchestration": {
+    "strategy": {
+      "skill-match": {
+        "label": "Correspondance intelligente",
+        "description": "Oriente automatiquement chaque question vers les membres les plus pertinents"
+      },
+      "coordinator": {
+        "label": "Coordinateur",
+        "description": "Un coordinateur analyse la tâche et désigne les meilleurs intervenants"
+      },
+      "round-robin": {
+        "label": "Tour à tour",
+        "description": "Les membres répondent chacun leur tour à chaque demande"
+      },
+      "all": {
+        "label": "Tout le monde répond",
+        "description": "Chaque membre répond à chaque demande"
+      }
+    }
+  },
+  "changelog": {
+    "title": "Journal des modifications"
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "title": "MossC - виртуальная AI-компания",
+    "description": "Дружелюбная оболочка для OpenClaw, которая позволяет управлять AI-командой так же естественно, как в чате."
+  },
+  "common": {
+    "cancel": "Отмена",
+    "create": "Создать",
+    "creating": "Создание",
+    "save": "Сохранить",
+    "saving": "Сохранение",
+    "confirm": "Подтвердить",
+    "delete": "Удалить",
+    "deleting": "Удаление",
+    "justNow": "Только что",
+    "me": "Я",
+    "meHuman": "Я (человек)",
+    "memberCount": "{{count}} участников",
+    "selectedCount": "Выбрано: {{count}}",
+    "searchPlaceholder": "Поиск..."
+  },
+  "nav": {
+    "chat": "Сообщения",
+    "virtualTeam": "Виртуальная команда",
+    "cron": "Запланированные задачи",
+    "settings": "Настройки"
+  },
+  "topNav": {
+    "connection": {
+      "connected": "Подключено к OpenClaw",
+      "connecting": "Подключение...",
+      "disconnected": "Не подключено",
+      "error": "Ошибка подключения"
+    },
+    "selectEngine": "Выбрать движок",
+    "comingSoon": "Скоро будет"
+  },
+  "settings": {
+    "backToApp": "Вернуться в MossC",
+    "sections": {
+      "models": "Настройка моделей",
+      "language": "Язык",
+      "community": "Сообщество"
+    },
+    "descriptions": {
+      "models": "Добавьте AI-провайдеров и настройте доступные модели",
+      "language": "По умолчанию используется язык браузера, но его можно сменить вручную",
+      "community": "Присоединяйтесь к официальной группе WeChat для получения обновлений и поддержки"
+    },
+    "community": {
+      "title": "Официальное сообщество",
+      "description": "Отсканируйте QR-код ниже, чтобы присоединиться к официальной группе MossC в WeChat",
+      "qrTip": "Отсканируйте в WeChat для вступления"
+    },
+    "language": {
+      "current": "Текущий язык интерфейса",
+      "system": "Следовать языку браузера",
+      "systemDescription": "При первом открытии используется предпочтительный язык браузера"
+    }
+  },
+  "conversationList": {
+    "title": "Сообщения",
+    "pin": "Закрепить",
+    "unpin": "Открепить",
+    "dissolveGroup": "Распустить группу",
+    "addNewMember": "Добавить участника",
+    "createGroup": "Создать группу",
+    "noMessages": "Сообщений пока нет"
+  },
+  "newConversation": {
+    "title": "Выберите участника для начала чата",
+    "searchMembers": "Поиск участников...",
+    "recommended": "Рекомендуемые",
+    "allMembers": "Все участники",
+    "skillsPrefix": "Сильные стороны"
+  },
+  "createAgent": {
+    "gatewayUnavailable": "Шлюз недоступен. Повторите попытку позже.",
+    "createFailed": "Не удалось создать Agent. Повторите попытку.",
+    "networkError": "Ошибка сети. Проверьте соединение и повторите попытку.",
+    "success": "Agent \"{{name}}\" успешно создан",
+    "title": "Создать нового Agent",
+    "description": "Добавьте нового AI-помощника в виртуальную команду",
+    "nameLabel": "Имя Agent *",
+    "namePlaceholder": "Введите имя Agent",
+    "descriptionLabel": "Описание (необязательно)",
+    "descriptionPlaceholder": "Кратко опишите роль этого Agent, например: анализирует рыночные тренды и данные о конкурентах",
+    "descriptionHelper": "Описание помогает команде лучше понять роль Agent"
+  },
+  "groupCreate": {
+    "createdMessage": "Группа создана",
+    "title": "Создать новую группу",
+    "nameLabel": "Название группы *",
+    "namePlaceholder": "Команда запуска продукта",
+    "purposeLabel": "Цель (необязательно)",
+    "purposePlaceholder": "Планирование и координация запуска продукта во 2 квартале: анализ рынка, тексты, поддержка данными и график",
+    "purposeHelper": "Описание цели помогает участникам понять контекст сотрудничества",
+    "strategyLabel": "Режим взаимодействия",
+    "maxResponders": "Макс. число ответов",
+    "coordinatorLabel": "Выберите координатора",
+    "coordinatorRequired": "Пожалуйста, выберите координатора",
+    "selectMembers": "Выберите участников",
+    "searchMembers": "Поиск участников...",
+    "createWithCount": "Создать группу ({{count}})"
+  },
+  "chatWindow": {
+    "today": "Сегодня",
+    "yesterday": "Вчера",
+    "emptyTitle": "Выберите диалог, чтобы начать общение",
+    "emptyDescription": "Или нажмите «Новый диалог», чтобы поговорить с командой",
+    "fullDate": "{{day}}.{{month}}.{{year}}"
+  },
+  "typingIndicator": {
+    "thinking": "{{name}} думает..."
+  },
+  "messageBubble": {
+    "taskStatus": {
+      "completed": "Завершено",
+      "inProgress": "В процессе",
+      "failed": "Ошибка"
+    },
+    "progress": "Прогресс",
+    "scope": "Область: {{scope}}",
+    "viewDetails": "Подробнее",
+    "downloadReport": "Скачать отчёт",
+    "download": "Скачать",
+    "preview": "Предпросмотр"
+  },
+  "messageInput": {
+    "placeholders": {
+      "withAttachments": "Добавьте сообщение или продолжайте вставлять изображения...",
+      "default": "Введите сообщение... Enter — отправить, Shift+Enter — новая строка, поддерживается вставка изображений"
+    },
+    "toolbar": {
+      "format": "Формат",
+      "mention": "Упоминание",
+      "shortcut": "Команда",
+      "attachment": "Вложение",
+      "more": "Ещё",
+      "newSession": "Новая сессия",
+      "expand": "Развернуть",
+      "send": "Отправить"
+    }
+  },
+  "header": {
+    "status": {
+      "online": "В сети",
+      "working": "Работает",
+      "busy": "Занят",
+      "thinking": "Думает"
+    },
+    "tooltips": {
+      "voiceCall": "Голосовой звонок",
+      "videoCall": "Видеозвонок",
+      "searchMessages": "Поиск сообщений",
+      "membersList": "Список участников"
+    },
+    "menu": {
+      "viewProfile": "Открыть профиль",
+      "rename": "Переименовать",
+      "changeAvatar": "Сменить аватар",
+      "pinConversation": "Закрепить диалог",
+      "muteNotifications": "Отключить уведомления",
+      "clearHistory": "Очистить историю",
+      "dissolveGroup": "Распустить группу",
+      "deleteAgent": "Удалить Agent"
+    },
+    "dissolveGroupConfirm": "Вы уверены, что хотите распустить «{{name}}»? Вся история сообщений будет удалена.",
+    "dissolveGroupSuccess": "Группа «{{name}}» распущена",
+    "deleteAgentTitle": "Удалить Agent",
+    "deleteAgentDescription": "Вы уверены, что хотите удалить «{{name}}»? Agent и его рабочее пространство будут удалены безвозвратно.",
+    "deleteFailed": "Не удалось удалить Agent. Повторите попытку.",
+    "deleteSuccess": "Agent \"{{name}}\" удалён",
+    "networkError": "Ошибка сети. Проверьте соединение и повторите попытку.",
+    "renameFailed": "Не удалось переименовать",
+    "renameSuccess": "Имя изменено на «{{name}}»",
+    "renameTitle": "Переименовать Agent",
+    "newName": "Новое имя",
+    "newNamePlaceholder": "Введите новое имя",
+    "selectImageFile": "Выберите файл изображения",
+    "imageSizeLimit": "Размер изображения должен быть меньше 2 МБ",
+    "uploadFailed": "Ошибка загрузки",
+    "avatarUpdated": "Аватар обновлён",
+    "changeAvatarTitle": "Сменить аватар",
+    "preview": "Предпросмотр",
+    "chooseAvatar": "Выбрать аватар",
+    "refreshBatch": "Обновить",
+    "orUploadCustom": "Или загрузите свой аватар",
+    "clickToUpload": "Нажмите, чтобы загрузить изображение",
+    "uploadSupport": "Поддерживаются JPG, PNG, WebP до 2 МБ"
+  },
+  "groupMembers": {
+    "title": "Участники ({{count}})",
+    "collaborationMode": "Режим:",
+    "maxResponders": "До {{count}} участников отвечают в каждом раунде",
+    "admin": "Администратор",
+    "addMembers": "+ Добавить участников"
+  },
+  "virtualOffice": {
+    "boardTitle": "Q3 Goals",
+    "coffeeMachine": "Coffee Machine",
+    "statusBar": "{{working}} working · {{idle}} idle",
+    "viewTeamPanel": "View Team Panel >>"
+  },
+  "cronView": {
+    "title": "Scheduled Jobs",
+    "refresh": "Refresh",
+    "status": "Status:",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "jobCount": "Jobs:",
+    "nextWake": "Next wake:",
+    "jobList": "Job List",
+    "showCount": "Showing {{shown}} / Total {{total}}",
+    "loading": "Loading...",
+    "empty": "No scheduled jobs",
+    "expired": "expired"
+  },
+  "modelConfig": {
+    "loadFailed": "Failed to load model config: ",
+    "saved": "Model config saved",
+    "saveFailed": "Save failed: ",
+    "unknownError": "Unknown error",
+    "loading": "Loading...",
+    "activeConfig": "Active Configuration",
+    "primaryModel": "Primary model:",
+    "notSelected": "-- Not selected --",
+    "noApiKey": " (No API Key)",
+    "current": "Current:",
+    "searchPlaceholder": "Search models (filter by ID or name)",
+    "noMatch": "No matching providers or models",
+    "noProviders": "No providers yet, please add one",
+    "saving": "Saving...",
+    "saveConfig": "Save Config",
+    "modelCount": "{{count}} models",
+    "available": "Available {{ms}}ms",
+    "unavailable": "Unavailable",
+    "apiType": "API Type",
+    "note": "Note",
+    "notePlaceholder": "e.g. Company account / Personal test",
+    "modelList": "Model List",
+    "modelIdPlaceholder": "Model ID",
+    "customModel": "Custom Model",
+    "deleteConfirm": "Are you sure you want to delete provider \"{{name}}\"? This action cannot be undone until you save.",
+    "editProvider": "Edit {{name}}",
+    "editProviderDesc": "Configure provider connection and manage model list",
+    "addModel": "Add Model",
+    "suggestedModels": "Suggested Models",
+    "done": "Done",
+    "reasoning": "Reasoning",
+    "providerId": "Provider ID",
+    "addProvider": "Add Provider",
+    "addProviderDesc": "Choose a known AI provider for quick setup, or create a custom one",
+    "searchProviderPlaceholder": "Search providers...",
+    "addCustomProvider": "Custom Provider",
+    "providerCategoryCn": "China",
+    "providerCategoryIntl": "International",
+    "providerCategoryAgg": "Aggregation",
+    "alreadyAdded": "Added"
+  },
+  "orchestration": {
+    "strategy": {
+      "skill-match": {
+        "label": "Умный подбор",
+        "description": "Автоматически направляет вопрос самым подходящим участникам"
+      },
+      "coordinator": {
+        "label": "Координатор",
+        "description": "Один координатор анализирует задачу и назначает лучших исполнителей"
+      },
+      "round-robin": {
+        "label": "По очереди",
+        "description": "Участники по очереди отвечают на каждый запрос"
+      },
+      "all": {
+        "label": "Отвечают все",
+        "description": "Каждый участник отвечает на каждый запрос"
+      }
+    }
+  },
+  "changelog": {
+    "title": "История изменений"
+  }
+}

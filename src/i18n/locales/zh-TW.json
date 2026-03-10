@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "title": "MossC - AI虛擬公司",
+    "description": "OpenClaw 的人性化互動外殼，讓非程式設計師像用飛書聊天一樣指揮 AI 團隊工作。"
+  },
+  "common": {
+    "cancel": "取消",
+    "create": "建立",
+    "creating": "建立中",
+    "save": "儲存",
+    "saving": "儲存中",
+    "confirm": "確認",
+    "delete": "刪除",
+    "deleting": "刪除中",
+    "justNow": "剛剛",
+    "me": "我",
+    "meHuman": "我（人類）",
+    "memberCount": "{{count}} 位成員",
+    "selectedCount": "已選 {{count}} 位",
+    "searchPlaceholder": "搜尋..."
+  },
+  "nav": {
+    "chat": "訊息",
+    "virtualTeam": "虛擬團隊",
+    "cron": "定時任務",
+    "settings": "設定"
+  },
+  "topNav": {
+    "connection": {
+      "connected": "已連線至 OpenClaw",
+      "connecting": "正在連線...",
+      "disconnected": "未連線",
+      "error": "連線錯誤"
+    },
+    "selectEngine": "選擇引擎",
+    "comingSoon": "即將支援"
+  },
+  "settings": {
+    "backToApp": "返回MossC",
+    "sections": {
+      "models": "模型設定",
+      "language": "語言",
+      "community": "社群"
+    },
+    "descriptions": {
+      "models": "添加 AI 模型服務商，配置可用模型",
+      "language": "預設跟隨瀏覽器語言，也可以手動切換",
+      "community": "加入官方微信群，獲取最新動態和技術支援"
+    },
+    "community": {
+      "title": "官方社群",
+      "description": "掃描下方二維碼加入 MossC 官方微信群，與其他用戶交流使用心得",
+      "qrTip": "微信掃一掃，加入官方群"
+    },
+    "language": {
+      "current": "當前介面語言",
+      "system": "跟隨瀏覽器",
+      "systemDescription": "首次開啟時自動採用瀏覽器預設語言"
+    }
+  },
+  "conversationList": {
+    "title": "訊息",
+    "pin": "置頂",
+    "unpin": "取消置頂",
+    "dissolveGroup": "解散群組",
+    "addNewMember": "新增成員",
+    "createGroup": "建立群組",
+    "noMessages": "暫無訊息"
+  },
+  "newConversation": {
+    "title": "選擇一位團隊成員開始對話",
+    "searchMembers": "搜尋團隊成員...",
+    "recommended": "推薦",
+    "allMembers": "全部成員",
+    "skillsPrefix": "擅長"
+  },
+  "createAgent": {
+    "gatewayUnavailable": "網關服務不可用，請稍後再試",
+    "createFailed": "建立失敗，請重試",
+    "networkError": "網路錯誤，請檢查連線後重試",
+    "success": "Agent \"{{name}}\" 建立成功",
+    "title": "建立新 Agent",
+    "description": "為你的虛擬團隊添加一位新的 AI 助手",
+    "nameLabel": "Agent 名稱 *",
+    "namePlaceholder": "輸入 Agent 名稱",
+    "descriptionLabel": "描述（選填）",
+    "descriptionPlaceholder": "簡要描述這個 Agent 的職責，例如：負責分析市場趨勢和競品數據",
+    "descriptionHelper": "描述會幫助團隊成員更好理解 Agent 的角色"
+  },
+  "groupCreate": {
+    "createdMessage": "群組已建立",
+    "title": "建立新群組",
+    "nameLabel": "群組名稱 *",
+    "namePlaceholder": "產品發布小組",
+    "purposeLabel": "群組用途（選填）",
+    "purposePlaceholder": "策劃和協調 Q2 產品發布，包括市場分析、文案、數據支持和排期",
+    "purposeHelper": "用途描述會幫助團隊成員更好理解協作脈絡",
+    "strategyLabel": "協作模式",
+    "maxResponders": "最多回應人數",
+    "coordinatorLabel": "選擇協調人",
+    "coordinatorRequired": "請選擇一位協調人",
+    "selectMembers": "選擇團隊成員",
+    "searchMembers": "搜尋團隊成員...",
+    "createWithCount": "建立群組 ({{count}})"
+  },
+  "chatWindow": {
+    "today": "今天",
+    "yesterday": "昨天",
+    "emptyTitle": "選擇一個對話開始聊天",
+    "emptyDescription": "或點擊「新建對話」與團隊成員交流",
+    "fullDate": "{{year}}年{{month}}月{{day}}日"
+  },
+  "typingIndicator": {
+    "thinking": "{{name}} 正在思考..."
+  },
+  "messageBubble": {
+    "taskStatus": {
+      "completed": "已完成",
+      "inProgress": "進行中",
+      "failed": "失敗"
+    },
+    "progress": "進度",
+    "scope": "範圍：{{scope}}",
+    "viewDetails": "查看詳情",
+    "downloadReport": "下載報告",
+    "download": "下載",
+    "preview": "預覽"
+  },
+  "messageInput": {
+    "placeholders": {
+      "withAttachments": "新增訊息或繼續貼上圖片...",
+      "default": "輸入訊息... Enter 發送，Shift+Enter 換行，可貼上圖片"
+    },
+    "toolbar": {
+      "format": "格式",
+      "mention": "提及",
+      "shortcut": "快捷指令",
+      "attachment": "附件",
+      "more": "更多",
+      "newSession": "新會話",
+      "expand": "展開",
+      "send": "發送"
+    }
+  },
+  "header": {
+    "status": {
+      "online": "在線",
+      "working": "工作中",
+      "busy": "忙碌",
+      "thinking": "思考中"
+    },
+    "tooltips": {
+      "voiceCall": "語音通話",
+      "videoCall": "視訊通話",
+      "searchMessages": "搜尋聊天記錄",
+      "membersList": "成員列表"
+    },
+    "menu": {
+      "viewProfile": "查看資料",
+      "rename": "重命名",
+      "changeAvatar": "更換頭像",
+      "pinConversation": "置頂對話",
+      "muteNotifications": "訊息免打擾",
+      "clearHistory": "清空記錄",
+      "dissolveGroup": "解散群組",
+      "deleteAgent": "刪除 Agent"
+    },
+    "dissolveGroupConfirm": "確定要解散群組「{{name}}」嗎？所有訊息記錄將被清除。",
+    "dissolveGroupSuccess": "群組「{{name}}」已解散",
+    "deleteAgentTitle": "確認刪除 Agent",
+    "deleteAgentDescription": "確定要刪除「{{name}}」嗎？此操作將移除該 Agent 及其工作區資料，且無法撤銷。",
+    "deleteFailed": "刪除失敗，請重試",
+    "deleteSuccess": "Agent \"{{name}}\" 已刪除",
+    "networkError": "網路錯誤，請檢查連線後重試",
+    "renameFailed": "重命名失敗",
+    "renameSuccess": "已重命名為「{{name}}」",
+    "renameTitle": "重命名 Agent",
+    "newName": "新名稱",
+    "newNamePlaceholder": "輸入新名稱",
+    "selectImageFile": "請選擇圖片檔案",
+    "imageSizeLimit": "圖片大小不能超過 2MB",
+    "uploadFailed": "上傳失敗",
+    "avatarUpdated": "頭像已更新",
+    "changeAvatarTitle": "更換頭像",
+    "preview": "預覽",
+    "chooseAvatar": "選擇頭像",
+    "refreshBatch": "換一批",
+    "orUploadCustom": "或上傳自訂頭像",
+    "clickToUpload": "點擊上傳圖片",
+    "uploadSupport": "支援 JPG、PNG、WebP，最大 2MB"
+  },
+  "groupMembers": {
+    "title": "成員 ({{count}})",
+    "collaborationMode": "協作模式：",
+    "maxResponders": "每次最多 {{count}} 人回應",
+    "admin": "管理員",
+    "addMembers": "+ 新增成員"
+  },
+  "virtualOffice": {
+    "boardTitle": "Q3 Goals",
+    "coffeeMachine": "Coffee Machine",
+    "statusBar": "{{working}} working · {{idle}} idle",
+    "viewTeamPanel": "View Team Panel >>"
+  },
+  "cronView": {
+    "title": "Scheduled Jobs",
+    "refresh": "Refresh",
+    "status": "Status:",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "jobCount": "Jobs:",
+    "nextWake": "Next wake:",
+    "jobList": "Job List",
+    "showCount": "Showing {{shown}} / Total {{total}}",
+    "loading": "Loading...",
+    "empty": "No scheduled jobs",
+    "expired": "expired"
+  },
+  "modelConfig": {
+    "loadFailed": "Failed to load model config: ",
+    "saved": "Model config saved",
+    "saveFailed": "Save failed: ",
+    "unknownError": "Unknown error",
+    "loading": "Loading...",
+    "activeConfig": "Active Configuration",
+    "primaryModel": "Primary model:",
+    "notSelected": "-- Not selected --",
+    "noApiKey": " (No API Key)",
+    "current": "Current:",
+    "searchPlaceholder": "Search models (filter by ID or name)",
+    "noMatch": "No matching providers or models",
+    "noProviders": "No providers yet, please add one",
+    "saving": "Saving...",
+    "saveConfig": "Save Config",
+    "modelCount": "{{count}} models",
+    "available": "Available {{ms}}ms",
+    "unavailable": "Unavailable",
+    "apiType": "API Type",
+    "note": "Note",
+    "notePlaceholder": "e.g. Company account / Personal test",
+    "modelList": "Model List",
+    "modelIdPlaceholder": "Model ID",
+    "customModel": "Custom Model",
+    "deleteConfirm": "Are you sure you want to delete provider \"{{name}}\"? This action cannot be undone until you save.",
+    "editProvider": "Edit {{name}}",
+    "editProviderDesc": "Configure provider connection and manage model list",
+    "addModel": "Add Model",
+    "suggestedModels": "Suggested Models",
+    "done": "Done",
+    "reasoning": "Reasoning",
+    "providerId": "Provider ID",
+    "addProvider": "Add Provider",
+    "addProviderDesc": "Choose a known AI provider for quick setup, or create a custom one",
+    "searchProviderPlaceholder": "Search providers...",
+    "addCustomProvider": "Custom Provider",
+    "providerCategoryCn": "China",
+    "providerCategoryIntl": "International",
+    "providerCategoryAgg": "Aggregation",
+    "alreadyAdded": "Added"
+  },
+  "orchestration": {
+    "strategy": {
+      "skill-match": {
+        "label": "智能匹配",
+        "description": "根據問題內容自動選擇最相關的成員回應"
+      },
+      "coordinator": {
+        "label": "協調模式",
+        "description": "指定一位協調人分析問題並分配給合適的成員"
+      },
+      "round-robin": {
+        "label": "輪流發言",
+        "description": "成員輪流回答每個問題"
+      },
+      "all": {
+        "label": "全部回應",
+        "description": "所有成員都會回答每個問題"
+      }
+    }
+  },
+  "changelog": {
+    "title": "更新日誌"
+  }
+}
